@@ -1,0 +1,209 @@
+
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+
+}
+
+                  /*     HEADING   */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* SECTIONS */
+.colored-section{
+  background-color: #de4463;
+  color:#fff;
+}
+.white-section{
+  background-color: #ffe9d6;
+}
+
+
+                      /*   CONTAINERS   */
+
+
+
+#title{
+
+  text-align:left;
+}
+
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 6%;
+}
+.navbar{
+  padding: 0 0 4.3rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 2.3rem;
+
+}
+.nav-item{
+  padding: 0 18px;;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+.doggy1{
+  transform: rotate(25deg);
+  width:60%;
+  right:30%;
+  position: absolute;
+  border-radius: 10%;
+}
+.imag{
+  position:relative;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+                /*    FEATURES    */
+#features{
+    padding: 7% 8%;
+    position:relative;
+    z-index: 1;
+
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+.box{
+  padding: 5%;
+}
+.icon{
+  color: #ee9595;
+  margin: 1rem;
+}
+.icon:hover{
+  color: #de4463;
+}
+
+
+        /*      testimonial section   */
+
+#testimonials{
+  background-color: #ee9595;
+  color: #ffffff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 6% 15%;
+}
+
+.testimonials-image{
+  width:15%;
+  border-radius: 80%;
+  margin:20px;
+
+}
+      /*      PRESS          */
+#press{
+  background-color: #ee9595;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*                PRICING            */
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricingbox{
+  padding: 3% 5%;
+  text-align: center;
+}
+
+
+
+/*   CTA */
+#cta{
+  padding: 5% 5%;
+}
+.big-heading2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 94%;
+  margin-left: 30px;
+  font-weight: 900;
+  color: white;
+}
+
+
+                /* FOOTER */
+#footer{
+  padding: 3%;
+  background-color: #ffe9d6;
+
+}
+.Copyright{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+.social{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.social:hover{
+  color:#de4463;
+}
+
+
+/*          for making responsive website i.e mobile friendly we use media querry which is advanced CSS not bootstrap*/
+@media (max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .doggy1{
+    position:static;
+    transform: rotate(0deg);
+}
